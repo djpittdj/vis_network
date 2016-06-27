@@ -123,7 +123,6 @@ function tick() {
   node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 }
 
-// mapping_group = {'OG':0, 'T_':1, 'F_':2, 'S_':3, 'PM':4, 'SB': 5, 'HR': 6, 'ST': 7, 'VR': 8, 'ER': 9}
 function color(d) {
   if (d.group == 1) {
     // return d._children ? "dimgray" : d.children ? "silver" : "silver";
